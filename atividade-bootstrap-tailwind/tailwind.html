@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tailwind</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4""></script>
+    </head>
+    <body class="bg-gray-100">
+
+        <!--menu -->
+        <nav class="bg=blue-600 text-white p-4 flex justify-between">
+        <div>Educação online</div>
+          <div class="space-x-4">
+            <a href="index.html" class="hover:underline">Outros componentes</a>
+            <a href="outros.componentes.html" class="hover:urderline">Outros componentes</a>
+            <a href="tailwind.html" class="hover:underline">Tailwind</a>
+          </div>
+        </nav> 
+        
+<!--card-->
+<div class="flex justify-center mt-10">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden w-80">
+        <img src="imgs/images.png" alt="Curso" class="w-full">
+        <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Curso de programação</h3>
+            <p class="text-gray-700 mb-4">Aprenda de forma prática e dinâmica.</p>
+            <button class="flex items-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
